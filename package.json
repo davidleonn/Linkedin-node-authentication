@@ -1,7 +1,7 @@
 {
   "name": "linkedin-node-authentication",
   "version": "1.0.0",
-  "description": "Basic application for setting up Linkedin login using node and passport",
+  "description": "Login básico con autenticación por Linkedin",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
