@@ -17,12 +17,12 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-passport.serializeUser(function (user, cb) {
-  cb(null, user);
+passport.serializeUser(function (user, callback) {
+  callback(null, user);
 });
 
-passport.deserializeUser(function (obj, cb) {
-  cb(null, obj);
+passport.deserializeUser(function (obj, callback) {
+  callback(null, obj);
 });
 
 passport.use(new LinkedInStrategy({
